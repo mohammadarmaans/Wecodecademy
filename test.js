@@ -63,7 +63,7 @@
 //     }
 //     return true;
 //   }
-//   let inputNum = 22222;
+//   let inputNum = 112233;
 //   let ans = allDigitsSame(inputNum);
 //   console.log(ans); 
 
