@@ -1,0 +1,46 @@
+
+class Car{
+  constructor(brand, year, fueltype){
+    this.carbrand = brand;
+    this.carYear= year;
+    this.feul   = fueltype;
+    this.color  = "grey";
+  }
+
+start(){
+    console.log("Start the Car")
+
+  };
+  stop(){
+    console.log("Stopping")
+  }
+};
+
+class TATA extends Car{
+
+  constructor(brand,year,fueltype){
+    super(brand,year,fueltype);
+    this.color = "Whute"
+  }
+  
+};
+
+class Hyundai extends Car{
+  constructor(brand,year,fueltype){
+super(brand,year,fueltype);
+    this.color = "White" 
+  }
+} 
+
+const car = new Car("AUdiA6" , 2023,"Diesel");
+const tata = new TATA("SAFARI", 2017,"diesel");
+const  hyundai = new Hyundai("Creta" , 2022,"Deisel");
+
+
+console.log(tata,hyundai);
+
+tata.start();
+tata.start();
+
+hyundai.stop();
+hyundai.stop();
