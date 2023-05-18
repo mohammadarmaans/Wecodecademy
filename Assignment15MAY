@@ -17,7 +17,6 @@ start(){
 };
 
 class TATA extends Car{
-
   constructor(brand,year,fueltype){
     super(brand,year,fueltype);
     this.color = "Whute"
@@ -31,7 +30,7 @@ super(brand,year,fueltype);
     this.color = "White" 
   }
 } 
-
+.mnx
 const car = new Car("CAR", 2023,"Diesel");
 const tata = new TATA("SAFARI", 2017,"diesel");
 const  hyundai = new Hyundai("Creta" , 2022,"Deisel");
